@@ -1,0 +1,43 @@
+body{
+   background-color: cadetblue;
+    text-align: center;
+
+}
+h2{
+    color: darkblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+i, input[type="button"] {
+    animation: glowing 300ms infinite;
+    font-weight: 500%;
+   }
+   @keyframes glowing {
+0% {
+    
+color: red;
+}
+50% {
+color: orange;
+}
+100% {
+color: blue;
+}
+   }
+.right {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    /* display: inline-block; */
+}
+a :visited{
+    background-color: blue;
+}
+div a :hover{
+    background-color: brown;
+}
+button{
+    height: 6vh;
+    width: 10vw;
+    border-radius: 5ch;
+    background-color: blue;
+}
